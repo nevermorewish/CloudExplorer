@@ -1,4 +1,6 @@
-import tinycolor from "@ctrl/tinycolor";
+import { TinyColor } from "@ctrl/tinycolor";
+
+const tinycolor = (color: string) => new TinyColor(color);
 export const base12 = [
   "rgba(78, 131, 253, 1)",
   "rgba(150, 189, 255, 1)",

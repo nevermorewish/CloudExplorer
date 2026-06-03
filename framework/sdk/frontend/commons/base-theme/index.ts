@@ -5,7 +5,9 @@ import type {
   UpdateInferData,
   UpdateKeyValueData,
 } from "./type";
-import tinycolor from "@ctrl/tinycolor";
+import { TinyColor } from "@ctrl/tinycolor";
+
+const tinycolor = (color: string) => new TinyColor(color);
 // 引入默认推断数据
 import inferData from "./defaultInferData";
 // 引入默认keyValue数据

@@ -1,0 +1,13 @@
+.git
+.github
+.idea
+.vscode
+target
+**/target
+node
+node_modules
+**/node
+**/node_modules
+.pnp.*
+*.log
+.DS_Store
